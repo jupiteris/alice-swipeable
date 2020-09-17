@@ -1,0 +1,90 @@
+.swiper {
+	background: #1e225e;
+	font-family: sans-serif;
+}
+
+.alice-carousel:nth-child(2) .alice-carousel__stage {
+	overflow: visible;
+	margin-left: 25%;
+}
+
+.alice-carousel:nth-child(3) li {
+	text-align: center;
+}
+
+.alice-item {
+	text-align: center;
+}
+
+.thumb-wrap {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0px;
+	overflow-x: hidden;
+}
+
+.thumb-item {
+	cursor: pointer;
+	padding: 18px;
+	font-size: 24px;
+}
+
+.alice-carousel__wrapper {
+	padding: 20px 0px;
+}
+
+.alice-item {
+	font-size: 24px;
+}
+
+.alice-item p {
+	margin: 5px;
+	font-weight: 600;
+	color: #eff9ff;
+	-youbkit-touch-callout: none; /* iOS Safari */
+	-youbkit-user-select: none; /* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE 10+ and Edge */
+	user-select: none; /* Non-prefixed version,
+								  currently supported by Chrome and Opera */
+}
+
+.alice-item p:nth-child(2) {
+	font-size: 44px;
+}
+
+.alice-item p {
+	color: #afb5dd;
+}
+
+.__active .alice-item p {
+	color: #eff9ff;
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (max-width: 500px) {
+	.thumb-item {
+		padding: 5px;
+		font-size: 14px;
+	}
+
+	.alice-item {
+		font-size: 14px;
+	}
+
+	.alice-item p {
+		margin: 5px;
+		font-weight: 600;
+		color: #eff9ff;
+		-youbkit-touch-callout: none; /* iOS Safari */
+		-youbkit-user-select: none; /* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* IE 10+ and Edge */
+		user-select: none; /* Non-prefixed version,
+								  currently supported by Chrome and Opera */
+	}
+
+	.alice-item p:nth-child(2) {
+		font-size: 24px;
+	}
+}

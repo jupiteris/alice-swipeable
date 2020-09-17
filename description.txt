@@ -1,0 +1,16 @@
+Required skills: React (hooks and functional components), CSS, JSX
+
+Please see interaction video attached as project file for interaction and layout details.
+
+We need a swipeable view component with the same interactions as displayed in the video. 
+There should be a top pill-based selection (Live, Today, Yesterday, This Week) 
+and multiple sub sections for each pill that are swipeable with touch or mouse drag. 
+Clicking a pill should rapidly scroll to the correct sub-section. 
+You can choose to use whatever supporting open source libraries, 
+however we ask that there are no CSS dependancies (MaterialUI for example), CSS can be inline for convenience. 
+This can be discussed if there is an inconvenience.
+
+**You do not need to implement the charting functionality, 
+an image for demo purposes where the charts should be can suffice for now.
+
+We prefer React functional implementation with hooks over a component based one.
